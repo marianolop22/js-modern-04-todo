@@ -11,8 +11,7 @@ export const todoList = new TodoList ();
 
 // crearTodoHtml(tarea);
 
-todoList.cargarLocalStorage();
 console.log(todoList);
 
-
+todoList.todos.forEach( crearTodoHtml ); // esto es lo mismo que esto todo => crearTodoHtml(todo)
 
